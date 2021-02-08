@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-08T09:48:18.765Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="iO8gQzUNBYF6oXp7cHYP" version="14.2.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-02-08T09:49:08.723Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="UCExcAN8AT6gi4GcAuvS" version="14.2.9" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Weex加载">
     <mxGraphModel dx="3129" dy="3285" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -288,16 +288,16 @@
         <mxCell id="Zo8zre_AHFBqHG1fS06w-172" value="H5BaseViewController&#xa;解析得到url" style="rounded=1;shadow=0;fontSize=10;fontStyle=0;strokeWidth=2;fillColor=none;glass=0;sketch=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="690" y="1083.56" width="130" height="50.88" as="geometry" />
         </mxCell>
-        <mxCell id="Zo8zre_AHFBqHG1fS06w-174" value="&lt;font&gt;config&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=10;fontStyle=1;fontColor=#0000FF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Zo8zre_AHFBqHG1fS06w-174" value="&lt;font&gt;config&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=10;fontStyle=1;fontColor=#009900;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="630" y="1090" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Zo8zre_AHFBqHG1fS06w-177" value="url" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=10;fontColor=#0000FF;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Zo8zre_AHFBqHG1fS06w-177" value="url" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=10;fontStyle=1;fontColor=#009900;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="824" y="1090" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Zo8zre_AHFBqHG1fS06w-178" value="url" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=10;fontColor=#0000FF;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Zo8zre_AHFBqHG1fS06w-178" value="url" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=10;fontStyle=1;fontColor=#009900;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1020" y="1088.5" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Zo8zre_AHFBqHG1fS06w-180" value="url" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=10;fontColor=#0000FF;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Zo8zre_AHFBqHG1fS06w-180" value="url" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=10;fontStyle=1;fontColor=#009900;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1120" y="1340" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Zo8zre_AHFBqHG1fS06w-181" value="callNativeModule已经注册到js上下文，&#xa;js执行到对应事件利用runtime动态调用原生事件" style="rounded=1;shadow=0;fontSize=10;fontStyle=0;strokeWidth=2;fillColor=none;glass=0;sketch=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
