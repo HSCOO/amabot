@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-19T02:09:37.789Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="_BtGG8fCMiffWawmDCMV" version="14.4.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-02-19T02:23:26.364Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="JJqi2_eszercY4BzqOpS" version="14.4.2" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Weex加载">
     <mxGraphModel dx="2722" dy="2985" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -444,7 +444,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AhaWF9ybrUBBR9a7m0_m" name="离线包加载">
-    <mxGraphModel dx="1895" dy="1816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2199" dy="1953" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="hvd0vMWYTRJBrRM2Bk-8-0" />
         <mxCell id="hvd0vMWYTRJBrRM2Bk-8-1" parent="hvd0vMWYTRJBrRM2Bk-8-0" />
@@ -1000,11 +1000,11 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="FpxAcoz6Z-6JzzYauabf" name="第 3 页">
-    <mxGraphModel dx="1068" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="IQ5omUU5bIl1ZgcEuhfH" name="路由">
+    <mxGraphModel dx="1372" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
-        <mxCell id="zGQ_l3qUVdtHk_ck3NUE-0" />
-        <mxCell id="zGQ_l3qUVdtHk_ck3NUE-1" parent="zGQ_l3qUVdtHk_ck3NUE-0" />
+        <mxCell id="3yEwfILhMWd9Pe9ewBdT-0" />
+        <mxCell id="3yEwfILhMWd9Pe9ewBdT-1" parent="3yEwfILhMWd9Pe9ewBdT-0" />
       </root>
     </mxGraphModel>
   </diagram>
