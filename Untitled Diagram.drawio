@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-19T02:05:59.484Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="QMG3X6xc9bzJMiRlkcAM" version="14.4.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-02-19T02:09:37.789Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="_BtGG8fCMiffWawmDCMV" version="14.4.2" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Weex加载">
-    <mxGraphModel dx="3026" dy="3088" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2722" dy="2985" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -444,7 +444,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AhaWF9ybrUBBR9a7m0_m" name="离线包加载">
-    <mxGraphModel dx="2199" dy="1919" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1895" dy="1816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="hvd0vMWYTRJBrRM2Bk-8-0" />
         <mxCell id="hvd0vMWYTRJBrRM2Bk-8-1" parent="hvd0vMWYTRJBrRM2Bk-8-0" />
@@ -997,6 +997,14 @@
         <mxCell id="mLtmQtXlh_x8JIGdIP0q-59" value="对比沙盒中hash值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;labelBackgroundColor=none;sketch=0;fontSize=7;fontColor=#009900;" parent="hvd0vMWYTRJBrRM2Bk-8-1" vertex="1">
           <mxGeometry x="2230" y="920" width="70" height="20" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="FpxAcoz6Z-6JzzYauabf" name="第 3 页">
+    <mxGraphModel dx="1068" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="zGQ_l3qUVdtHk_ck3NUE-0" />
+        <mxCell id="zGQ_l3qUVdtHk_ck3NUE-1" parent="zGQ_l3qUVdtHk_ck3NUE-0" />
       </root>
     </mxGraphModel>
   </diagram>
