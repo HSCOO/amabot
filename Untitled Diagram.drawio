@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-19T08:07:38.887Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="WTuvu4C4Xhs3cigNNXcK" version="14.4.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-02-20T03:05:29.910Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="SRHFRb88b3-ism2uPzZJ" version="14.4.2" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Weex加载">
     <mxGraphModel dx="3208" dy="3088" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1340,21 +1340,99 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ReEYovF5AXy36v7VA-TV" name="网络">
-    <mxGraphModel dx="1139" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1966" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="lmVSMyV_vxCmOqT4SBn0-0" />
         <mxCell id="lmVSMyV_vxCmOqT4SBn0-1" parent="lmVSMyV_vxCmOqT4SBn0-0" />
-        <mxCell id="ScAB0LcgZjn0WGM3mGEd-0" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;sketch=0;strokeColor=#006658;fillColor=#21C0A5;fontColor=#5C5C5C;" vertex="1" parent="lmVSMyV_vxCmOqT4SBn0-1">
-          <mxGeometry x="180" y="210" width="160" height="86" as="geometry" />
-        </mxCell>
-        <mxCell id="ScAB0LcgZjn0WGM3mGEd-1" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ScAB0LcgZjn0WGM3mGEd-0">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        <mxCell id="ScAB0LcgZjn0WGM3mGEd-0" value="YDSecurityPolicy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;sketch=0;strokeColor=#006658;fillColor=#21C0A5;fontColor=#5C5C5C;" vertex="1" parent="lmVSMyV_vxCmOqT4SBn0-1">
+          <mxGeometry x="180" y="210" width="160" height="34" as="geometry" />
         </mxCell>
         <mxCell id="ScAB0LcgZjn0WGM3mGEd-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="ScAB0LcgZjn0WGM3mGEd-0">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ScAB0LcgZjn0WGM3mGEd-4" value="YDNetBiz" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;sketch=0;strokeColor=#006658;fillColor=#21C0A5;fontColor=#5C5C5C;" vertex="1" parent="lmVSMyV_vxCmOqT4SBn0-1">
+          <mxGeometry x="480" y="360" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ScAB0LcgZjn0WGM3mGEd-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="ScAB0LcgZjn0WGM3mGEd-4">
+          <mxGeometry y="26" width="300" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ScAB0LcgZjn0WGM3mGEd-7" value="+ (NSBundle*)libBundle;&#xa;+ (UIImage *)imageNamed:(NSString *)imageName;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ScAB0LcgZjn0WGM3mGEd-4">
+          <mxGeometry y="34" width="300" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="ScAB0LcgZjn0WGM3mGEd-8" value="YDDomainConfig_json" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;sketch=0;strokeColor=#006658;fillColor=#21C0A5;fontColor=#5C5C5C;" vertex="1" parent="lmVSMyV_vxCmOqT4SBn0-1">
+          <mxGeometry x="470" y="210" width="160" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ScAB0LcgZjn0WGM3mGEd-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="ScAB0LcgZjn0WGM3mGEd-8">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ScAB0LcgZjn0WGM3mGEd-11" value="QSimplePing" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;sketch=0;strokeColor=#006658;fillColor=#21C0A5;fontColor=#5C5C5C;" vertex="1" parent="lmVSMyV_vxCmOqT4SBn0-1">
+          <mxGeometry x="680" y="210" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="ScAB0LcgZjn0WGM3mGEd-12" value="..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ScAB0LcgZjn0WGM3mGEd-11">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ScAB0LcgZjn0WGM3mGEd-13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="ScAB0LcgZjn0WGM3mGEd-11">
           <mxGeometry y="52" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="ScAB0LcgZjn0WGM3mGEd-3" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ScAB0LcgZjn0WGM3mGEd-0">
+        <mxCell id="ScAB0LcgZjn0WGM3mGEd-14" value="..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ScAB0LcgZjn0WGM3mGEd-11">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ScAB0LcgZjn0WGM3mGEd-15" value="QLServerInterface+Private.h" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;sketch=0;strokeColor=#006658;fillColor=#21C0A5;fontColor=#5C5C5C;" vertex="1" parent="lmVSMyV_vxCmOqT4SBn0-1">
+          <mxGeometry x="-110" y="290" width="530" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="ScAB0LcgZjn0WGM3mGEd-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="ScAB0LcgZjn0WGM3mGEd-15">
+          <mxGeometry y="26" width="530" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ScAB0LcgZjn0WGM3mGEd-18" value="+ (QLServerInterface *)buildServerInterfaceWithConfig:(InterfaceConfig *)config&#xa;                                                 body:(id)body&#xa;                                                query:(NSDictionary *)query&#xa;                                              headers:(NSDictionary*)headers&#xa;                                              options:(NSDictionary*)opts&#xa;                                             delegate:(id&lt;QLServerInterfaceDelegate&gt;)delegate_&#xa;                                              success:(void (^)(QLServerInterface *interface,id resultObj))success&#xa;                                              failure:(void (^)(QLServerInterface *interface, NSError *error))failure;&#xa;+ (QLServerInterface *)buildServerInterfaceWithOpts:(NSDictionary *)opts&#xa;                                           delegate:(id&lt;QLServerInterfaceDelegate&gt;)delegate_;&#xa;+ (QLServerInterface *)buildServerInterfaceWithOpts:(NSDictionary *)opts&#xa;                                            success:(void (^)(QLServerInterface *interface,id resultObj))success&#xa;                                            failure:(void (^)(QLServerInterface *interface, NSError *error))failure;&#xa;+ (QLRequestParam *)buildRequestParamWithConfig:(InterfaceConfig *)config&#xa;                                           body:(id)body&#xa;                                          query:(NSDictionary *)query&#xa;                                        headers:(NSDictionary*)headers&#xa;                                        options:(NSDictionary*)opts;&#xa;+ (instancetype)initWithRequestParam:(QLRequestParam*)requestModal&#xa;                       interfaceConf:(InterfaceConfig *)config&#xa;                            delegate:(id&lt;QLServerInterfaceDelegate&gt;)delegate_;&#xa;+ (instancetype)initWithRequestParam:(QLRequestParam*)requestModal&#xa;                       interfaceConf:(InterfaceConfig *)config&#xa;                             success:(void (^)(QLServerInterface *interface,id resultObj))success&#xa;                             failure:(void (^)(QLServerInterface *interface, NSError *error))failure;&#xa;+ (NSString*)convertData:(NSData*)data toStringWithResp:(NSURLResponse*)resp;&#xa;+ (id)parseJsonString:(NSString*)jsonstr error:(NSError **)error;&#xa;+ (void)reportUri:(NSString *)uri&#xa;           pageId:(NSString *)pageId&#xa;       statusCode:(NSInteger)statusCode&#xa;      requestSize:(NSUInteger)requestSize&#xa;     responseSize:(NSUInteger)responseSize&#xa;         duration:(NSTimeInterval)duration&#xa;      triggerTime:(NSTimeInterval)triggerTime&#xa;            error:(NSError*)err;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ScAB0LcgZjn0WGM3mGEd-15">
+          <mxGeometry y="34" width="530" height="506" as="geometry" />
+        </mxCell>
+        <mxCell id="ScAB0LcgZjn0WGM3mGEd-19" value="QLServerInterface+NetTest" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;sketch=0;strokeColor=#006658;fillColor=#21C0A5;fontColor=#5C5C5C;" vertex="1" parent="lmVSMyV_vxCmOqT4SBn0-1">
+          <mxGeometry x="550" y="490" width="470" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ScAB0LcgZjn0WGM3mGEd-21" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="ScAB0LcgZjn0WGM3mGEd-19">
+          <mxGeometry y="26" width="470" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ScAB0LcgZjn0WGM3mGEd-22" value="+ (void)checkDataFetchError:(NSError*)err params:(NSDictionary *)dic;&#xa;+ (QLServerInterface *)loadDomainConfig:(void (^)(QLServerInterface *interface,id resultObj))success&#xa;                                failure:(void (^)(QLServerInterface *interface, NSError *error))failure;&#xa;+ (QLServerInterface *)loadDomainConfigIp:(void (^)(QLServerInterface *interface,id resultObj))success&#xa;                                  failure:(void (^)(QLServerInterface *interface, NSError *error))failure;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ScAB0LcgZjn0WGM3mGEd-19">
+          <mxGeometry y="34" width="470" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="ScAB0LcgZjn0WGM3mGEd-23" value="QLServerInterface+file" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;sketch=0;strokeColor=#006658;fillColor=#21C0A5;fontColor=#5C5C5C;" vertex="1" parent="lmVSMyV_vxCmOqT4SBn0-1">
+          <mxGeometry x="550" y="640" width="430" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ScAB0LcgZjn0WGM3mGEd-24" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="ScAB0LcgZjn0WGM3mGEd-23">
+          <mxGeometry y="26" width="430" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ScAB0LcgZjn0WGM3mGEd-25" value="+ (NSURLSessionUploadTask*)uploadWithFileUrl:(NSURL *)fileUrl&#xa;                                      params:(NSDictionary *)params&#xa;                                        from:(NSString*)pageid&#xa;                                    complete:(void (^)(id result, NSError* error))complete&#xa;                            progressCallback:(void (^)(id result))progressCallback;&#xa;+ (NSURLSessionUploadTask*)uploadFileWithParams:(NSDictionary *)params&#xa;                                           from:(NSString*)pageid&#xa;                                       complete:(void (^)(id result, NSError* error))complete&#xa;                               progressCallback:(void (^)(id result))progressCallback;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ScAB0LcgZjn0WGM3mGEd-23">
+          <mxGeometry y="34" width="430" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="ScAB0LcgZjn0WGM3mGEd-26" value="QLServerinterface+bin" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;sketch=0;strokeColor=#006658;fillColor=#21C0A5;fontColor=#5C5C5C;" vertex="1" parent="lmVSMyV_vxCmOqT4SBn0-1">
+          <mxGeometry x="545" y="850" width="420" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ScAB0LcgZjn0WGM3mGEd-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="ScAB0LcgZjn0WGM3mGEd-26">
+          <mxGeometry y="26" width="420" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ScAB0LcgZjn0WGM3mGEd-28" value="+ (void)uploadLogFile:(NSData*)fileData&#xa;              logType:(NSString*)logType&#xa;              success:(void (^)(QLServerInterface *interface,id resultObj))success&#xa;              failure:(void (^)(QLServerInterface *interface, NSError *error))failure;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ScAB0LcgZjn0WGM3mGEd-26">
+          <mxGeometry y="34" width="420" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="ScAB0LcgZjn0WGM3mGEd-29" value="QLServerInterface+BDK" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;sketch=0;strokeColor=#006658;fillColor=#21C0A5;fontColor=#5C5C5C;" vertex="1" parent="lmVSMyV_vxCmOqT4SBn0-1">
+          <mxGeometry x="545" y="990" width="530" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="ScAB0LcgZjn0WGM3mGEd-30" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="ScAB0LcgZjn0WGM3mGEd-29">
+          <mxGeometry y="26" width="530" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ScAB0LcgZjn0WGM3mGEd-31" value="+ (QLServerInterface *)loadDataWithUrlStr:(NSString*)urlstr&#xa;                                     from:(NSString*)pageid&#xa;                                  success:(void (^)(QLServerInterface *interface, NSData* data))success&#xa;                                  failure:(void (^)(QLServerInterface *interface, NSError *error))failure;&#xa;+ (QLServerInterface*)getWeexMapFrom:(NSString*)pageid delegate:(id&lt;QLServerInterfaceDelegate&gt;) delegate_;&#xa;+ (QLServerInterface*)getTabbarConfigFrom:(NSString*)pageid&#xa;                                 success:(void (^)(QLServerInterface *interface,id resultObj))success&#xa;                                 failure:(void (^)(QLServerInterface *interface, NSError *error))failure;&#xa;+ (QLServerInterface*)getVToolsDataWithKeys:(NSArray&lt;NSString *&gt; *)keys&#xa;                                      from:(NSString*)pageid&#xa;                                   success:(void (^)(QLServerInterface *interface,id resultObj))success&#xa;                                   failure:(void (^)(QLServerInterface *interface, NSError *error))failure;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ScAB0LcgZjn0WGM3mGEd-29">
+          <mxGeometry y="34" width="530" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="ScAB0LcgZjn0WGM3mGEd-32" value="QLServerInterface" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;sketch=0;strokeColor=#006658;fillColor=#21C0A5;fontColor=#5C5C5C;" vertex="1" parent="lmVSMyV_vxCmOqT4SBn0-1">
+          <mxGeometry x="550" y="1260" width="310" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="ScAB0LcgZjn0WGM3mGEd-33" value="+ Class wantResponseClass;&#xa;+ id userinfo;&#xa;+ NSInteger uuid;&#xa;+ BOOL isDataExpired;&#xa;+ BOOL isCacheData;&#xa;+ BOOL loading;&#xa;+ NSString* localCacheKey;&#xa;+ NSInteger statusCode;&#xa;+ NSData* respBody;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ScAB0LcgZjn0WGM3mGEd-32">
+          <mxGeometry y="26" width="310" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="ScAB0LcgZjn0WGM3mGEd-34" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="ScAB0LcgZjn0WGM3mGEd-32">
+          <mxGeometry y="160" width="310" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ScAB0LcgZjn0WGM3mGEd-35" value="+ (void)cancel;&#xa;+ (NSString*)methodName;&#xa;+ (BOOL)sendDelegateMessageIfLocalDataAvailable;&#xa;+ (NSString*)parseJSONP:(NSString *)js;&#xa;+ (NSError*)checkErrorWithResult:(NSDictionary*)resDic;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ScAB0LcgZjn0WGM3mGEd-32">
+          <mxGeometry y="168" width="310" height="82" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
